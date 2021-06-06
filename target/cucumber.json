@@ -1,0 +1,306 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2517364084,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the \"Techfios\" login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Techfios",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDef.user_is_on_the_login_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1801943497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeRun()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "2 User should able to create a new account",
+        "description": "",
+        "id": "validate-techfios-login-functionality;2-user-should-able-to-create-a-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2146273894,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDef.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2066203708,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDef.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3347116578,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on signin button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1357338658,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should land on Dashboard page",
+            "match": {
+              "location": "LoginStepDef.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1056197817,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Bank and Cash",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_Bank_and_Cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1596019524,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on New Account",
+            "match": {
+              "location": "LoginStepDef.user_clicks_on_New_Account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1318848269,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should land on Accounts page",
+            "match": {
+              "location": "LoginStepDef.user_should_land_on_Accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094056672,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should fill account title as \"Debit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Debit",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_account_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1065941845,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should fill description as \"New Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Account",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_description_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1071745786,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should fill initial balance as \"50,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50,000",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_initial_balance_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1065132528,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should fill account number as \"20079\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20079",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_account_number_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1064753040,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user should fill contact person as \"James bond\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James bond",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_contact_person_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1059531335,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should fill phone number as \"78799988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "78799988",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_phone_number_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1065547271,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should fill internet banking url as \"https://bofa.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bofa.com",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginStepDef.user_should_fill_internet_banking_url_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2015763505,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should click on submit button",
+            "match": {
+              "location": "LoginStepDef.user_should_click_on_submit_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@scenerio2"
+          }
+        ]
+      }
+    ],
+    "name": "validate Techfios login functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/TF_Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      }
+    ]
+  }
+]
